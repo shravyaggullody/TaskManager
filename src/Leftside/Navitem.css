@@ -1,0 +1,22 @@
+.nav-item {
+    margin-bottom: 10px;
+  }
+  
+  .custom-nav-link {
+    font-size: 14px;
+    text-align: left;
+    background-color: transparent;
+    border-right: transparent;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-right 0.2s ease-in-out;
+  }
+  
+  .custom-nav-link:hover {
+    color: red;
+  }
+  
+  .custom-nav-link.active {
+    color: red;
+    background-color: rgb(249, 242, 253);
+    border-right: 4px solid rgb(170, 5, 247);
+  }
+  
